@@ -1,0 +1,34 @@
+@import url('./main-layout.css');
+@import url('./views/cliente-view.css');
+@import url('./views/habitacion-view.css');
+@import url('./views/reserva-view.css');
+@import url('@fontsource/arvo/index.css');    html {
+      --lumo-base-color: #00264d;
+      --lumo-primary-color: hsl(214, 52%, 4%);
+      --lumo-primary-color-50pct: hsla(214, 52%, 4%, 0.5);
+      --lumo-primary-color-10pct: hsla(214, 52%, 4%, 0.1);
+      --lumo-error-color: hsl(3, 100%, 50%);
+      --lumo-error-color-50pct: hsla(3, 100%, 50%, 0.5);
+      --lumo-error-color-10pct: hsla(3, 100%, 50%, 0.1);
+      --lumo-success-color: hsl(54, 100%, 50%);
+      --lumo-success-color-50pct: hsla(54, 100%, 50%, 0.5);
+      --lumo-success-color-10pct: hsla(54, 100%, 50%, 0.1);
+      --lumo-shade: hsl(214, 0%, 98%);
+      --lumo-shade-5pct: hsla(214, 0%, 98%, 0.05);
+      --lumo-shade-10pct: hsla(214, 0%, 98%, 0.1);
+      --lumo-shade-20pct: hsla(214, 0%, 98%, 0.2);
+      --lumo-shade-30pct: hsla(214, 0%, 98%, 0.3);
+      --lumo-shade-40pct: hsla(214, 0%, 98%, 0.4);
+      --lumo-shade-50pct: hsla(214, 0%, 98%, 0.5);
+      --lumo-shade-60pct: hsla(214, 0%, 98%, 0.6);
+      --lumo-shade-70pct: hsla(214, 0%, 98%, 0.7);
+      --lumo-shade-80pct: hsla(214, 0%, 98%, 0.8);
+      --lumo-shade-90pct: hsla(214, 0%, 98%, 0.9);
+      --lumo-body-text-color: hsla(214, 11%, 98%, 0.94);
+      --lumo-primary-text-color: hsl(214, 0%, 0%);
+      --lumo-border-radius-s: calc(var(--lumo-size-m) / 6);
+      --lumo-border-radius-m: calc(var(--lumo-size-m) / 2);
+      --lumo-border-radius-l: var(--lumo-size-m);
+--lumo-font-family: Arvo;
+
+    }
