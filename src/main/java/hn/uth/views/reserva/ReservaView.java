@@ -297,11 +297,11 @@ public class ReservaView extends Div implements BeforeEnterObserver, ViewModelRe
         	precioTotal.setValue(Double.toString(value.getPreciototal()));
         	
         	idHabitacion.setValue(value.getIdhabitacion());        	
-        	habitacionseleccionado = buscarHabitacion(value.getHabitacion());
+        	habitacionseleccionado = buscarHabitacion(value.getIdhabitacion());
         	habitacion.setValue(habitacionseleccionado);
         	
         	idCliente.setValue(value.getIdcliente());        	
-        	clienteSeleccionado = buscarCliente(value.getCliente());
+        	clienteSeleccionado = buscarCliente(value.getIdcliente());
 			cliente.setValue(clienteSeleccionado);
 			
         	fechaInicio.setValue(value.getFechainicio());
@@ -324,7 +324,7 @@ public class ReservaView extends Div implements BeforeEnterObserver, ViewModelRe
 		// TODO Auto-generated method stub
 		Cliente encontrado = null;
     	for(Cliente cli: clientes) {
-    		if(cli.getIdentidad() == idcliente) {
+    		if(cli.getIdentidad().equals(idcliente)) {
     			encontrado = cli;
     			break;
     		}
